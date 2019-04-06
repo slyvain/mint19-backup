@@ -1,0 +1,33 @@
+[settings-daemon/peripherals/keyboard]
+numlock-state='on'
+
+[/]
+panel-edit-mode=false
+enabled-applets=['panel1:right:0:systray@cinnamon.org:0', 'panel1:left:0:menu@cinnamon.org:1', 'panel1:left:1:show-desktop@cinnamon.org:2', 'panel1:left:2:grouped-window-list@cinnamon.org:3', 'panel1:right:1:keyboard@cinnamon.org:4', 'panel1:right:2:notifications@cinnamon.org:5', 'panel1:right:3:removable-drives@cinnamon.org:6', 'panel1:right:4:network@cinnamon.org:8', 'panel1:right:5:sound@cinnamon.org:9', 'panel1:right:6:power@cinnamon.org:10', 'panel1:right:7:calendar@cinnamon.org:11']
+next-applet-id=12
+enabled-desklets=@as []
+panel-zone-icon-sizes='[{"panelId": 1, "left": 0, "center": 0, "right": 0}]'
+panels-enabled=['1:0:bottom']
+panels-height=['1:28']
+
+[desktop/a11y/applications]
+screen-keyboard-enabled=true
+
+[desktop/background]
+picture-uri='file:///home/sylvain/Pictures/Wallpapers/g7x5m2nm63y11.jpg'
+picture-options='zoom'
+
+[desktop/background/slideshow]
+image-source='directory:///home/sylvain/Pictures/Wallpapers'
+delay=15
+slideshow-enabled=false
+
+[desktop/interface]
+toolkit-accessibility=true
+
+[desktop/sound]
+event-sounds=false
+
+[theme]
+symbolic-relative-size=0.67000000000000004
+name='Mint-Y-Dark'

@@ -1,0 +1,21 @@
+[dock1]
+icon-size=40
+show-dock-item=false
+position='top'
+dock-items=['nemo.dockitem', 'org.gnome.Terminal.dockitem', 'firefox.dockitem', 'google-chrome.dockitem', 'keeweb.dockitem', 'vscode_vscode.dockitem', 'virtualbox.dockitem']
+unhide-delay=0
+items-alignment='center'
+theme='Default'
+hide-mode='window-dodge'
+pinned-only=false
+auto-pinning=true
+alignment='center'
+zoom-percent=125
+hide-delay=1
+zoom-enabled=true
+monitor=''
+lock-items=false
+tooltips-enabled=true
+pressure-reveal=false
+offset=0
+current-workspace-only=false
