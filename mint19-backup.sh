@@ -8,6 +8,9 @@ readonly DUMPDIR="${0%/*}/dumps"
 
 main()
 {
+    source "${0%/*}/encrypt_data.sh"
+    backup_private_data
+
     shopt -s nullglob
     local confScriptList=( ${0%/*}/backup-*.sh )
 
