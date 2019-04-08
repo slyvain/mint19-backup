@@ -1,4 +1,4 @@
-[dock1]
+[docks/dock1]
 icon-size=40
 show-dock-item=false
 position='top'

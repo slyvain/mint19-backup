@@ -5,7 +5,7 @@ set -o nounset
 
 backup_plank()
 {
-    dconf dump /net/launchpad/plank/docks/ > "${DUMPDIR}/plank-settings.bak"
+    dconf dump /net/launchpad/plank/ > "${DUMPDIR}/plank-settings.bak"
 }
 
 backup_transmission()

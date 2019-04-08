@@ -12,7 +12,7 @@ backup_desktop()
     cp "${HOMEDIR}/.cinnamon/configs/calendar@cinnamon.org/11.json" "${DUMPDIR}/cinnamon-calendar.bak"
 
     # Personnal settings for displaying the menu button
-    cp "${HOMEDIR}/.cinnamon/configs/menu@cinnamon.org/1.json" "${DUMPDIR}/cinnamon-calendar.bak"
+    cp "${HOMEDIR}/.cinnamon/configs/menu@cinnamon.org/1.json" "${DUMPDIR}/cinnamon-menu.bak"
 
     # Some of the wallpapers I like
     tar -czf "${DUMPDIR}/wallpapers.tar.gz" "${HOMEDIR}/Pictures/Wallpapers/"
