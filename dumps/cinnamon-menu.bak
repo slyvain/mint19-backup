@@ -81,7 +81,7 @@
         "tooltip": "Select an icon to show in the panel.",
         "dependency": "menu-custom",
         "indent": true,
-        "value": "system-shutdown-panel"
+        "value": ""
     },
     "menu-label": {
         "type": "entry",
@@ -90,7 +90,7 @@
         "tooltip": "Enter custom text to show in the panel.",
         "dependency": "menu-custom",
         "indent": true,
-        "value": "Applications   "
+        "value": "   Applications   "
     },
     "favbox-min-height": {
         "type": "spinbutton",

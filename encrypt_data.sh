@@ -23,6 +23,7 @@ backup_private_data()
         echo "Overwrite? [y-n]"
         read -r userinput
         if [[ "y" = "${userinput}" ]]; then
+            rm "${DUMPDIR}/private.bak.gpg"
             encrypt_file
         elif [[ "n" != "${userinput}" ]]; then
             echo "Error: You typed '${userinput}', pay attention! Exiting..."

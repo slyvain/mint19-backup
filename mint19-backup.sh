@@ -8,6 +8,7 @@ readonly DUMPDIR="${0%/*}/dumps"
 
 main()
 {
+    # Encrypt the `private.bak` file (git ignored of course!)
     source "${0%/*}/encrypt_data.sh"
     backup_private_data
 
