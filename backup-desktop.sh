@@ -15,5 +15,5 @@ backup_desktop()
     cp "${HOMEDIR}/.cinnamon/configs/menu@cinnamon.org/1.json" "${DUMPDIR}/cinnamon-menu.bak"
 
     # Some of the wallpapers I like
-    tar -czf "${DUMPDIR}/wallpapers.tar.gz" "${HOMEDIR}/Pictures/Wallpapers/"
+    tar -czf "${DUMPDIR}/wallpapers.tar.gz" --directory "${HOMEDIR}/Pictures/Wallpapers/" .
 }
