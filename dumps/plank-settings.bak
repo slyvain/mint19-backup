@@ -2,7 +2,7 @@
 icon-size=40
 show-dock-item=false
 position='top'
-dock-items=['desktop.dockitem', 'nemo.dockitem', 'org.gnome.Terminal.dockitem', 'firefox.dockitem', 'google-chrome.dockitem', 'keeweb.dockitem', 'xed.dockitem', 'com.visualstudio.code.dockitem', 'virtualbox.dockitem', 'com.skype.Client.dockitem']
+dock-items=['nemo.dockitem', 'org.gnome.Terminal.dockitem', 'firefox.dockitem', 'google-chrome.dockitem', 'keeweb.dockitem', 'xed.dockitem', 'code_code.dockitem', 'skypeforlinux.dockitem', 'virtualbox.dockitem']
 unhide-delay=0
 items-alignment='center'
 theme='Paperterial'
